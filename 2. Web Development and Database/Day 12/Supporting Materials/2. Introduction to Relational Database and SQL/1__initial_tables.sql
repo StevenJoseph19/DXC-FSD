@@ -111,16 +111,17 @@ CREATE PROCEDURE InsertNewAct(
 )
 BEGIN
     -- exit if the duplicate key occurs
-    DECLARE EXIT HANDLER FOR 1062
+	-- DECLARE EXIT HANDLER FOR 1062
+       DECLARE CONTINUE HANDLER FOR 1062
     BEGIN
  	SELECT CONCAT('Duplicate key (',inActId,',',inName,'',inRecordLabel,') occurred') AS message into message;
     END;
     
-    -- insert a new row into the SupplierProducts
+    -- insert a new row into the Acts table
     INSERT INTO acts(Id, Name,RecordLabel)
     VALUES(inActId,inName,inRecordLabel);
     
-    -- return the products supplied by the supplier id
+    -- return the name of the Act
     SELECT Name
     FROM acts
     WHERE Id = inActId 
