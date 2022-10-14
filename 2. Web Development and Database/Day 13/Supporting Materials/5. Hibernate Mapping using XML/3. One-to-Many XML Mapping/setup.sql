@@ -1,3 +1,5 @@
+DROP DATABASE IF EXISTS stockdb;
+
 create database stockdb;
 use stockdb;
  
