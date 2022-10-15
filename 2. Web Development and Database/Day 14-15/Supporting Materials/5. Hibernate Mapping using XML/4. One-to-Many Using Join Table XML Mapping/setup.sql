@@ -1,3 +1,5 @@
+DROP DATABASE IF EXISTS newsdb;
+
 CREATE DATABASE `newsdb`;
  
 use newsdb;
