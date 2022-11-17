@@ -5,7 +5,7 @@
 # docker network create --driver bridge isolated_network
 # docker run -d --net=isolated_network --name mongodb mongo
 
-# NOTE: $(pwd) in the following line is for Mac and Linux. See https://blog.codewithdan.com/docker-volumes-and-print-working-directory-pwd/ for Windows examples.
+# NOTE: $(pwd) in the following line is for Mac and Linux. 
 # docker run -d --net=isolated_network --name nodeapp -p 3000:3000 -v $(pwd)/logs:/var/www/logs johndoe/nodeapp
 
 # Seed the database with sample database

@@ -1,2 +1,1 @@
-<version>4.0.0-rc-2</version>
 driver.get("http://softwaretestingplace.blogspot.com/2015/10/sample-web-page-to-test.html");
