@@ -1,0 +1,4 @@
+[INFO ] 12-10-2022 17:10:44.225 [main] Main - Info Message Logged!!
+[ERROR] 12-10-2022 17:10:44.232 [main] Main - Error Message Logged!!
+java.lang.NullPointerException: NullError!!
+	at com.hibernate.main.Main.main(Main.java:13) [classes/:?]

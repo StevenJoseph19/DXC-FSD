@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\workspace\DXC-FSD\m03_ex06"/>
+			<item value="C:\workspace\DXC-FSD"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.selenium.webdriver"/>
+			<item value="com.mycompany"/>
+			<item value="com.hibernate.relations"/>
+			<item value="com.hibernate.configuration"/>
+			<item value="org.dxc.standardopenoptions"/>
+		</list>
+		<list key="name">
+			<item value="WebDriverDemo"/>
+			<item value="JUnit5Maven"/>
+			<item value="bean-factory-ioc-container"/>
+			<item value="conference"/>
+			<item value="m04_ex01"/>
+			<item value="m03_ex01"/>
+			<item value="core-java-nio2-open-options"/>
+		</list>
+		<list key="artifactId">
+			<item value="WebDriverDemo"/>
+			<item value="JUnit5Maven"/>
+			<item value="bean-factory-ioc-container"/>
+			<item value="conference"/>
+			<item value="m04_ex01"/>
+			<item value="m03_ex01"/>
+			<item value="core-java-nio2-open-options"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\workspace\DXC-FSD\"/>
+			<item value="C:\workspace\DXC-FSD\ExtendingJUnit"/>
+			<item value="C:\workspace\DXC-FSD\DynamicParameterizedTests"/>
+			<item value="C:\workspace\DXC-FSD\Tests"/>
+			<item value="C:\workspace\DXC-FSD\springRestAndDataJpaWithSpringBoot"/>
+			<item value="C:\workspace\DXC-FSD\ride_tracker"/>
+			<item value="C:\workspace\DXC-FSD\SpringHibernateIntegration"/>
+			<item value="C:\workspace\DXC-FSD\HibernateFetchTypes"/>
+			<item value="C:\workspace\DXC-FSD\HibernateMany2ManyXML"/>
+			<item value="C:\workspace\DXC-FSD\HibernateOne2ManyJoinTableXML"/>
+			<item value="C:\workspace\DXC-FSD\HibernateOne2ManyXML"/>
+			<item value="C:\workspace\DXC-FSD\HibernateOne2OneForeignKeyXML"/>
+			<item value="C:\workspace\DXC-FSD\HibernateOne2OnePrimaryKeyXML"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="531"/>
+		<item key="x" value="692"/>
+		<item key="y" value="78"/>
+	</section>
+	<section name="org.eclipse.m2e.editor.dialogs.ManageDependenciesDialog">
+		<item key="width" value="673"/>
+		<item key="height" value="450"/>
+		<item key="x" value="347"/>
+		<item key="y" value="64"/>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.EditDependencyDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="450"/>
+		<item key="x" value="443"/>
+		<item key="y" value="64"/>
+	</section>
+</section>

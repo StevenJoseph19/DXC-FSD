@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1663821837839_0" label="Java Main Sources" name="Java Main Sources"/>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1663821837879_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1665658026799_3" label="HibernateOne2OnePrimaryKeyXML" name="HibernateOne2OnePrimaryKeyXML">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/HibernateOne2OnePrimaryKeyXML" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1665660048273_4" label="HibernateOne2OneForeignKeyXML" name="HibernateOne2OneForeignKeyXML">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/HibernateOne2OneForeignKeyXML" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1665661016385_5" label="HibernateOne2ManyXML" name="HibernateOne2ManyXML">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/HibernateOne2ManyXML" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1665661867134_6" label="HibernateOne2ManyJoinTableXML" name="HibernateOne2ManyJoinTableXML">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/HibernateOne2ManyJoinTableXML" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1665720737812_7" label="HibernateMany2ManyXML" name="HibernateMany2ManyXML">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/HibernateMany2ManyXML" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1665721788387_8" label="HibernateFetchTypes" name="HibernateFetchTypes">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/HibernateFetchTypes" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1665723728818_9" label="SpringHibernateIntegration" name="SpringHibernateIntegration">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/SpringHibernateIntegration" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1666248121525_10" label="conference-web" name="conference-web">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/conference-web" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1666693657858_11" label="ride_tracker" name="ride_tracker">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ride_tracker" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1666856224695_12" label="springRestAndDataJpaWithSpringBoot" name="springRestAndDataJpaWithSpringBoot">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springRestAndDataJpaWithSpringBoot" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1667189666153_13" label="Tests" name="Tests">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Tests" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1667206905389_14" label="DynamicParameterizedTests" name="DynamicParameterizedTests">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/DynamicParameterizedTests" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1667216226296_15" label="ExtendingJUnit" name="ExtendingJUnit">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ExtendingJUnit" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1663821852062_2" label="Window Working Set" name="Aggregate for window 1663821852061"/>
+</workingSetManager>

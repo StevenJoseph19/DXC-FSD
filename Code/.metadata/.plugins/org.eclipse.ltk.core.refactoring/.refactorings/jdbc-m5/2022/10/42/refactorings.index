@@ -1,0 +1,11 @@
+1665468618018	Delete elements
+1665469097327	Extract method 'simpleReadWithExecuteQuery'
+1665469543751	Extract method 'simpleInsertWithExecuteUpdate'
+1665469906819	Extract method 'simpleUpdateWithExecuteUpdate'
+1665470154270	Extract method 'simpleDeleteWithExecuteUpdate'
+1665470928867	Extract method 'simpleInsertWithExecute'
+1665472169577	Extract method 'simpleSelectWithExecute'
+1665472890713	Extract method 'insertMultipleValues'
+1665473237797	Extract method 'executeUpdateWithWrongNumberOfParameters'
+1665477661193	Extract method 'selectWithParameters'
+1665478981135	Delete element

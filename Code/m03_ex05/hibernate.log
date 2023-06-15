@@ -1,0 +1,53 @@
+2022-Oct-12 16:53:35 PM [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2022-Oct-12 16:53:35 PM [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.5.Final}
+2022-Oct-12 16:53:35 PM [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-Oct-12 16:53:35 PM [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2022-Oct-12 16:53:35 PM [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hibernate.cfg.xml
+2022-Oct-12 16:53:35 PM [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hibernate.cfg.xml
+2022-Oct-12 16:53:43 PM [main] INFO  org.hibernate.cfg.Configuration - HHH000221: Reading mappings from resource: employee.hbm.xml
+2022-Oct-12 16:53:51 PM [main] INFO  org.hibernate.cfg.Configuration - HHH000221: Reading mappings from resource: question.hbm.xml
+2022-Oct-12 16:54:04 PM [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2022-Oct-12 16:54:05 PM [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2022-Oct-12 16:54:05 PM [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/EMPLOYEE]
+2022-Oct-12 16:54:05 PM [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {password=****, user=root}
+2022-Oct-12 16:54:05 PM [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2022-Oct-12 16:54:05 PM [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2022-Oct-12 16:54:08 PM [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2022-Oct-12 16:54:09 PM [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2022-Oct-12 16:54:09 PM [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2022-Oct-12 16:54:10 PM [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2022-Oct-12 16:54:10 PM [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2022-Oct-12 16:54:10 PM [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2022-Oct-12 16:54:10 PM [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: employee.answer
+2022-Oct-12 16:54:10 PM [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [questionid, answer, username]
+2022-Oct-12 16:54:10 PM [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_t758116qbawpmr9jgwdp89e7x]
+2022-Oct-12 16:54:10 PM [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2022-Oct-12 16:54:10 PM [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: employee.employee
+2022-Oct-12 16:54:10 PM [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [role, name, insert_time, id]
+2022-Oct-12 16:54:10 PM [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2022-Oct-12 16:54:10 PM [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2022-Oct-12 16:54:10 PM [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: employee.emp_phone_numbers
+2022-Oct-12 16:54:10 PM [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [phoneid, phone_number, type]
+2022-Oct-12 16:54:10 PM [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2022-Oct-12 16:54:10 PM [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: []
+2022-Oct-12 16:54:11 PM [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: employee.question
+2022-Oct-12 16:54:11 PM [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, id, username]
+2022-Oct-12 16:54:11 PM [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2022-Oct-12 16:54:11 PM [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2022-Oct-12 16:54:11 PM [main] ERROR org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000388: Unsuccessful: alter table EMP_PHONE_NUMBERS add constraint FK_k4ensqy5x9ruwna8koc0vpclx foreign key (phoneId) references EMPLOYEE (ID)
+2022-Oct-12 16:54:11 PM [main] ERROR org.hibernate.tool.hbm2ddl.SchemaUpdate - Referencing column 'phoneId' and referenced column 'ID' in foreign key constraint 'FK_k4ensqy5x9ruwna8koc0vpclx' are incompatible.
+2022-Oct-12 16:54:11 PM [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2022-Oct-12 16:54:11 PM [main] DEBUG org.hibernate.SQL - select max(ID) from QUESTION
+2022-Oct-12 16:54:11 PM [main] DEBUG org.hibernate.SQL - insert into QUESTION (NAME, USERNAME, ID) values (?, ?, ?)
+2022-Oct-12 16:54:11 PM [main] DEBUG org.hibernate.SQL - insert into QUESTION (NAME, USERNAME, ID) values (?, ?, ?)
+2022-Oct-12 16:54:11 PM [main] DEBUG org.hibernate.SQL - insert into ANSWER (questionid, answer, username) values (?, ?, ?)
+2022-Oct-12 16:54:11 PM [main] DEBUG org.hibernate.SQL - insert into ANSWER (questionid, answer, username) values (?, ?, ?)
+2022-Oct-12 16:54:11 PM [main] DEBUG org.hibernate.SQL - insert into ANSWER (questionid, answer, username) values (?, ?, ?)
+2022-Oct-12 16:54:11 PM [main] DEBUG org.hibernate.SQL - insert into ANSWER (questionid, answer, username) values (?, ?, ?)
+2022-Oct-12 16:54:11 PM [main] DEBUG org.hibernate.SQL - insert into ANSWER (questionid, answer, username) values (?, ?, ?)
+2022-Oct-12 16:54:12 PM [main] DEBUG org.hibernate.SQL - select question0_.ID as ID1_3_, question0_.NAME as NAME2_3_, question0_.USERNAME as USERNAME3_3_ from QUESTION question0_
+2022-Oct-12 16:54:12 PM [main] DEBUG org.hibernate.SQL - select answers0_.questionid as question1_3_0_, answers0_.username as username2_0_0_, answers0_.answer as answer3_0_ from ANSWER answers0_ where answers0_.questionid=?
+2022-Oct-12 16:54:12 PM [main] DEBUG org.hibernate.SQL - select answers0_.questionid as question1_3_0_, answers0_.username as username2_0_0_, answers0_.answer as answer3_0_ from ANSWER answers0_ where answers0_.questionid=?
+2022-Oct-12 16:54:12 PM [main] DEBUG org.hibernate.SQL - select answers0_.questionid as question1_3_0_, answers0_.username as username2_0_0_, answers0_.answer as answer3_0_ from ANSWER answers0_ where answers0_.questionid=?
+2022-Oct-12 16:54:12 PM [main] DEBUG org.hibernate.SQL - select answers0_.questionid as question1_3_0_, answers0_.username as username2_0_0_, answers0_.answer as answer3_0_ from ANSWER answers0_ where answers0_.questionid=?
+2022-Oct-12 16:54:12 PM [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/EMPLOYEE]

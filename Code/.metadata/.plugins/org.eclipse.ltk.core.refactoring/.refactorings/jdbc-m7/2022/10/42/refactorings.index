@@ -1,0 +1,5 @@
+1665484020331	Extract method 'csGetActsWithRecordLabel'
+1665486443883	Extract method 'csGigReportInDateRange'
+1665487100113	Extract method 'cgGetTotalSalesWithOutParameter'
+1665488275228	Extract method 'csSetNewPriceWithInOutParameter'
+1665500779026	Delete element

@@ -1,0 +1,11 @@
+INDEX VERSION 1.131
+C:\workspace\DXC-FSD\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1601084106.index
+\LearnToday\src
+C:\workspace\DXC-FSD\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3132891750.index
+\JSPFundamentals\src
+C:\workspace\DXC-FSD\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2873709678.index
+\conference-web\src\main\java
+C:\workspace\DXC-FSD\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1314219661.index
+\JSPSessionHandlingWithCookies\src
+C:\workspace\DXC-FSD\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3718238908.index
+\ride_tracker\src\main\java
